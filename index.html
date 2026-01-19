@@ -236,15 +236,17 @@
         <h4 class="font-medium text-gray-800 text-center mb-2 text-lg dark:text-white">Browse My Recent</h4>
         <h2 class="text-center text-5xl">Projects</h2>
         <p class="text-center max-w-3xl mx-auto mt-5 b-12">Welcome to my project portfolio!
-            Explore a collection of projects showcasing my expertise in frontend and full stack web development, with a
-            focus on clean UI, performance, and scalability.</p>
+            Explore a collection of projects showcasing my expertise in Python-based full stack web development.
+            DevSearch is a full stack web application built using Python for the backend, allowing users to search,
+            explore, and connect with developers based on their skills and profiles.
+            It focuses on clean UI, smooth user experience, and efficient data handling.</p>
 
-        <div class="grid grid-auto my-10 gap-5 dark:text-black">
+        <div class="grid grid-cols-1 place-items-center my-10 gap-5 dark:text-black">
             <div
                 class="aspect-square bg-[url('./images/work-1.jpeg')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
             </div>
             <div
-                class="aspect-square bg-[url('./images/work-3.jpeg')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
+                class="w-[320px] aspect-square bg-[url('./images/work-3.jpeg')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
                 <div
                     class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                     <div>
@@ -273,12 +275,15 @@
             <input type="hidden" name="access_key" value="bf5c179f-c231-4164-93a9-0b9f70438aea">
             <div class="grid grid-auto gap-6 mt-10 mb-8">
                 <input type="text" placeholder="Enter your name"
-                    class="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-gray-900/30 dark:border-white/90" required name="name">
+                    class="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-gray-900/30 dark:border-white/90"
+                    required name="name">
                 <input type="text" placeholder="Enter your email"
-                    class="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-gray-900/30 dark:border-white/90" required name="email">
+                    class="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-gray-900/30 dark:border-white/90"
+                    required name="email">
             </div>
             <textarea rows="6" placeholder="Enter your message"
-                class="w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6 dark:bg-gray-900/30 dark:border-white/90" required name="message"></textarea>
+                class="w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6 dark:bg-gray-900/30 dark:border-white/90"
+                required name="message"></textarea>
             <button
                 class="py-3 px-8 w-max flex items-center justify-between gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-black duration-500 dark:bg-transparent dark:border-[0.5px] dark:hover:bg-gray-900">Submit
                 now <img src="./images/right-arrow-white.png" alt="" class="w-4"></button>
